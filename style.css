@@ -1,0 +1,184 @@
+@font-face {
+    font-family: 'opensans';
+    src: url('fonts/open-sans/opensans-variablefont_wdthwght-webfont.woff2') format('woff2'),
+         url('fonts/open-sans/opensans-variablefont_wdthwght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body,
+footer {
+    font-family: 'opensans', Verdana, sans-serif;
+    color: #333;
+}
+
+.top-nav-bar {
+    border-bottom: 2px solid lightgray;
+    margin: 0;
+    padding: 10px;
+}
+
+.top-nav-bar img {
+    max-width: 3rem;
+    height: auto;
+}
+
+.nav-bar-left {
+    display: flex;
+    padding-right: 10px;
+    align-items: center;
+    float: left;
+}
+
+.nav-bar-left img {
+    padding: 10px;
+    align-items: center;
+}
+
+.nav-bar-left a {
+    display: flex;
+    padding: 15px;
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+}
+
+.nav-bar-left a:hover  {
+    color: rgb(20, 145, 155);
+}
+
+.nav-bar-right {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+
+.nav-bar-right img {
+    padding-left: 20px;
+    align-items: center;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    padding: 30px;
+    font-style: italic;
+    margin: 15px;
+}
+
+.grid {
+    background-color:blanchedalmond;
+}
+
+.grid-box {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0;
+}
+
+.grid-box img {
+    max-width: 200px;
+    height: auto;
+    padding-bottom: 15px;
+}
+
+.current-read, .recent-read {
+    background-color: whitesmoke;
+    width: 200px;
+    height: 450px;
+    display: inline-block;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 30px;
+    box-shadow: 5px 5px 20px grey;
+    text-align: center;
+    overflow: auto;
+}
+
+.current-read a, 
+.recent-read a,
+.to-read a,
+.recs a {
+    width: auto;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: #333;
+    margin-top: 15px;
+}
+
+.current-read a:hover, 
+.recent-read a:hover,
+.to-read a:hover,
+.recs a:hover {
+    color: rgb(20, 145, 155);
+}
+
+.to-read {
+    background-color: whitesmoke;
+    width: 200px;
+    height: 500px;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 30px;
+    box-shadow: 5px 5px 20px grey;
+    text-align: center;
+    overflow: auto;
+}
+
+.recs {
+    background-color: whitesmoke;
+    width: 200px;
+    height: 500px;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 30px;
+    box-shadow: 5px 5px 20px grey;
+    text-align: center;
+    overflow: auto;
+}
+
+footer {
+    border-top: 2px solid lightgray;
+    display: inline-flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #333;
+}
+
+footer a:hover {
+    color: rgb(20, 145, 155);
+}
+
+.footer-left {
+    padding-right: 10px;
+    align-items: center;
+    float: left;
+}
+
+.footer-right {
+    display: inline-flex;
+    padding-left: 63rem;
+}
+
+.footer-right button {
+    align-items: center;
+    background-color: rgb(20, 145, 155);
+    border-color: gray;
+    border-radius: 15px;
+    color: white;
+    width: 120px;
+    height: 50px;
+    cursor: pointer;
+}
